@@ -17,7 +17,7 @@ There are, however, a few rules which we ourselves override and some that are no
 - The line length is 120 characters long;
 - No copywrite notice is included at the top of files;
 - Import order and paragraphs are not managed manually by the developer, but instead automatically by IntelliJ / Android Studio;
-- The single parameterless annotation exception is never used, as annotations are always placed in their own line;
+- The single parameterless annotation exception is never used, as annotations are always placed in their own line, except annotations on method parameters which can go on the same line;
 - Exceptions widely known to be safe to ignore can be ignored (common in Android and some libraries). It's better not to show a tooltip at a given moment than to crash the app for the user;
 - Non-public static member variables are prefixed with `s`, all others follow the conventions mentioned in the documents;
 - All comments always start capitalized and end with a period. They're written English, so they follow the written English rules;
