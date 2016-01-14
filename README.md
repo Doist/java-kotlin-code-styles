@@ -4,7 +4,7 @@ IntelliJ IDEA code style settings for Doist's Java and Android projects.
 
 ## Installation
 
-- Run the `install.sh` script;
+- Run the `install.sh` or `install.bat` script;
 - Restart IntelliJ if it's running;
 - Open IntelliJ Project Settings -> Code Styles, change the code style for the project to the one you want.
 
