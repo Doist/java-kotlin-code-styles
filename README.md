@@ -10,7 +10,7 @@ IntelliJ IDEA code style settings for Doist's Java and Android projects.
 
 ## Details
 
-The code style definition follows [Google's general guidelines](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html) and [Android's definitions](http://source.android.com/source/code-style.html), which override some of the rules.
+The code style definition follows [Google's general guidelines](https://google.github.io/styleguide/javaguide.html) and [Android's definitions](http://source.android.com/source/code-style.html), which override some of the rules.
 
 There are, however, a few rules which we ourselves override and some that are not mentioned above:
 
