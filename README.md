@@ -14,7 +14,6 @@ The code style definition follows [Google's general guidelines](https://google.g
 
 There are, however, a few rules which we ourselves override and some that are not mentioned above:
 
-- The line length is 120 characters long;
 - No copyright notice is included at the top of files;
 - Import order and paragraphs are not managed manually by the developer, but instead automatically by IntelliJ / Android Studio;
 - The single parameterless annotation exception is never used, as annotations are always placed in their own line, except annotations on method parameters which can go on the same line;
@@ -26,8 +25,7 @@ There are, however, a few rules which we ourselves override and some that are no
 
 ## Kotlin
 
-The code style definition follows the official [Kotlin style guide](https://kotlinlang.org/docs/reference/coding-conventions.html), with a few changes and additional rules not mentioned above:
-- The line length is 120 characters long;
+The code style definition follows the official [Kotlin style guide](https://kotlinlang.org/docs/reference/coding-conventions.html), with a few changes to enforce compatibility with [ktlint](https://github.com/pinterest/ktlint) and additional rules not mentioned above:
 - No copyright notice is included at the top of files;
 - Import order and paragraphs are not managed manually by the developer, but instead automatically by IntelliJ / Android Studio;
 - Exceptions widely known to be safe to ignore can be ignored (common in Android and some libraries). It's better not to show a tooltip at a given moment than to crash the app for the user;
