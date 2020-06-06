@@ -19,5 +19,5 @@ Foreach($path in $arr)
 
 Write-Host "Done."
 Write-Host ""
-Write-Host "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'DoistAndroid'."
+Write-Host "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'DoistStyle'."
 Read-Host "Press ENTER to quit"

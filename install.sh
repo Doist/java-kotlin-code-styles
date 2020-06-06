@@ -18,4 +18,4 @@ done
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'DoistAndroid'."
+echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'DoistStyle'."
