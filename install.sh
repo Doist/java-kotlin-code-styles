@@ -3,16 +3,21 @@
 
 echo "Installing Doist code style configs..."
 
+CONFIGS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/configs"
+
 for i in $HOME/Library/Preferences/IntelliJIdea* \
-$HOME/Library/Preferences/IdeaIC* \
-$HOME/Library/Preferences/AndroidStudio* \
-$HOME/.IntelliJIdea*/config \
-$HOME/.IdeaIC*/config \
-$HOME/.AndroidStudio*/config
-do
-  if [ -d $i ]; then
+  $HOME/Library/Preferences/IdeaIC* \
+  $HOME/Library/Preferences/AndroidStudio* \
+  $HOME/Library/Application\ Support/JetBrains/IntelliJIdea* \
+  $HOME/.IntelliJIdea*/config \
+  $HOME/.IdeaIC*/config \
+  $HOME/.AndroidStudio*/config \
+  $HOME/Library/Application\ Support/Google/AndroidStudio* \
+  $HOME/Library/Application\ Support/JetBrains/IdeaIC*; do
+  if [[ -d $i ]]; then
+    # Install codestyles
     mkdir -p $i/codestyles
-    cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs/* $i/codestyles 2> /dev/null
+    cp -frv "$CONFIGS/codestyles"/* "$i/codestyles" 2>/dev/null
   fi
 done
 
