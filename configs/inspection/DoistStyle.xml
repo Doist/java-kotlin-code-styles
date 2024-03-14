@@ -2,7 +2,7 @@
   <profile version="1.0">
     <option name="myName" value="DoistStyle" />
     <inspection_tool class="ConstPropertyName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-      <option name="namePattern" value="[A-Z][_A-z\d]*" />
+      <option name="namePattern" value="[A-Z][A-Za-z\d]*" />
     </inspection_tool>
     <inspection_tool class="PreviewAnnotationInFunctionWithParameters" enabled="true" level="ERROR" enabled_by_default="true">
       <option name="composableFile" value="true" />
