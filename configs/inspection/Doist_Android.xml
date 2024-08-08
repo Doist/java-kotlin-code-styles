@@ -1,0 +1,16 @@
+<profile version="1.0">
+  <description>Doist style for Android-only projects</description>
+  <option name="myName" value="Doist Android" />
+  <inspection_tool class="ConstPropertyName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="namePattern" value="[A-Z][A-Za-z\d]*" />
+  </inspection_tool>
+  <inspection_tool class="FunctionName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="namePattern" value="[a-zA-Z][A-Za-z\d]*" />
+  </inspection_tool>
+  <inspection_tool class="TestFunctionName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="namePattern" value="[a-zA-Z][A-Za-z_\d]*" />
+  </inspection_tool>
+  <inspection_tool class="TrailingComma" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="addCommaWarning" value="true" />
+  </inspection_tool>
+</profile>
